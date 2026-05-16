@@ -1,0 +1,173 @@
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.AssemblyInfo.cs
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\appsettings.json
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\API_KURS.exe
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\API_KURS.deps.json
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\API_KURS.runtimeconfig.json
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\API_KURS.runtimeconfig.dev.json
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\API_KURS.dll
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\API_KURS.pdb
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\User\source\repos\API_KURS\bin\Debug\net5.0\Pomelo.JsonObject.dll
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.RazorTargetAssemblyInfo.cache
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\scopedcss\bundle\API_KURS.styles.css
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\staticwebassets\API_KURS.StaticWebAssets.Manifest.cache
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\staticwebassets\API_KURS.StaticWebAssets.Pack.cache
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.API_KURS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.build.API_KURS.props
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.API_KURS.props
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.API_KURS.props
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.csproj.Up2Date
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.dll
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\refint\API_KURS.dll
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.pdb
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\API_KURS.genruntimeconfig.cache
+C:\Users\User\source\repos\API_KURS\obj\Debug\net5.0\ref\API_KURS.dll
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.dll
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\refint\API_KURS.dll
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.pdb
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\appsettings.Development.json
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\appsettings.json
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.exe
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.deps.json
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.runtimeconfig.json
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.runtimeconfig.dev.json
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.dll
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.pdb
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\MySqlConnector.dll
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Pomelo.JsonObject.dll
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.AssemblyReference.cache
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.GeneratedMSBuildEditorConfig.editorconfig
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.AssemblyInfoInputs.cache
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.AssemblyInfo.cs
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.CoreCompileInputs.cache
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.MvcApplicationPartsAssemblyInfo.cache
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.RazorTargetAssemblyInfo.cache
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\scopedcss\bundle\API_KURS.styles.css
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\API_KURS.StaticWebAssets.Manifest.cache
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\API_KURS.StaticWebAssets.Pack.cache
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.API_KURS.Microsoft.AspNetCore.StaticWebAssets.props
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.build.API_KURS.props
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.API_KURS.props
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.API_KURS.props
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.CopyComplete
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.genruntimeconfig.cache
+D:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\ref\API_KURS.dll
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\appsettings.Development.json
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\appsettings.json
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.exe
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.deps.json
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.runtimeconfig.json
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.runtimeconfig.dev.json
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.dll
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.pdb
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\MySqlConnector.dll
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+F:\3 курс\Савинов\АПИ\API_KURS\bin\Debug\net5.0\Pomelo.JsonObject.dll
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.AssemblyReference.cache
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.GeneratedMSBuildEditorConfig.editorconfig
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.AssemblyInfoInputs.cache
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.AssemblyInfo.cs
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.CoreCompileInputs.cache
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.MvcApplicationPartsAssemblyInfo.cache
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.RazorTargetAssemblyInfo.cache
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\scopedcss\bundle\API_KURS.styles.css
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\API_KURS.StaticWebAssets.Manifest.cache
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\API_KURS.StaticWebAssets.Pack.cache
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.API_KURS.Microsoft.AspNetCore.StaticWebAssets.props
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.build.API_KURS.props
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.API_KURS.props
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.API_KURS.props
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.Up2Date
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.dll
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\refint\API_KURS.dll
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.pdb
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.genruntimeconfig.cache
+F:\3 курс\Савинов\АПИ\API_KURS\obj\Debug\net5.0\ref\API_KURS.dll
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.dll
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\refint\API_KURS.dll
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.pdb
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\appsettings.json
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.exe
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.deps.json
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.runtimeconfig.json
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.runtimeconfig.dev.json
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.dll
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.pdb
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\bin\Debug\net5.0\Pomelo.JsonObject.dll
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.RazorTargetAssemblyInfo.cache
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\scopedcss\bundle\API_KURS.styles.css
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\API_KURS.StaticWebAssets.Manifest.cache
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\API_KURS.StaticWebAssets.Pack.cache
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.API_KURS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.build.API_KURS.props
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.API_KURS.props
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.API_KURS.props
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.Up2Date
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.genruntimeconfig.cache
+C:\Users\User\OneDrive\Рабочий стол\АПИ\API_KURS\obj\Debug\net5.0\ref\API_KURS.dll
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\appsettings.json
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.exe
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.deps.json
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.runtimeconfig.json
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.runtimeconfig.dev.json
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.dll
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\API_KURS.pdb
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\Pomelo.JsonObject.dll
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.RazorTargetAssemblyInfo.cache
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\scopedcss\bundle\API_KURS.styles.css
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\API_KURS.StaticWebAssets.Manifest.cache
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\API_KURS.StaticWebAssets.Pack.cache
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.API_KURS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.build.API_KURS.props
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.API_KURS.props
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.API_KURS.props
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.csproj.Up2Date
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.dll
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\refint\API_KURS.dll
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.pdb
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\API_KURS.genruntimeconfig.cache
+C:\Users\User\OneDrive\Рабочий стол\НАВСЯКИЙ\АПИ\API_KURS\obj\Debug\net5.0\ref\API_KURS.dll

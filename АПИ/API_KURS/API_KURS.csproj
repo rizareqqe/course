@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Microsoft.Bcl.AsyncInterfaces">
+			<HintPath>bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.EntityFrameworkCore">
+			<HintPath>bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+			<HintPath>bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.EntityFrameworkCore.Relational">
+			<HintPath>bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+		</Reference>
+		<Reference Include="MySqlConnector">
+			<HintPath>bin\Debug\net5.0\MySqlConnector.dll</HintPath>
+		</Reference>
+		<Reference Include="Pomelo.EntityFrameworkCore.MySql">
+			<HintPath>bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,88 @@
+DROP DATABASE IF EXISTS movie_database;
+CREATE DATABASE movie_database CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE movie_database;
+
+CREATE TABLE genres (
+    genre_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL
+);
+
+INSERT INTO genres (name) VALUES
+('Драма'),
+('Комедия'),
+('Фантастика');
+
+CREATE TABLE directors (
+    director_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL
+);
+
+INSERT INTO directors (name) VALUES
+('Кристофер Нолан'),
+('Стивен Спилберг'),
+('Питер Джексон');
+
+CREATE TABLE actors (
+    actor_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL
+);
+
+INSERT INTO actors (name) VALUES
+('Леонардо ДиКаприо'),
+('Том Хэнкс'),
+('Элайджа Вуд');
+
+CREATE TABLE movies (
+    movie_id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(200) NOT NULL,
+    year INT NOT NULL,
+    description TEXT,
+    director_id INT NULL,
+    CONSTRAINT fk_movies_director
+        FOREIGN KEY (director_id) REFERENCES directors(director_id)
+        ON DELETE SET NULL
+        ON UPDATE CASCADE
+);
+
+INSERT INTO movies (title, year, description, director_id) VALUES
+('Инцепция', 2010, 'Фильм о снах и реальности', 1),
+('Список Шиндлера', 1993, 'Историческая драма', 2),
+('Властелин колец', 2001, 'Эпическая фэнтези сага', 3);
+
+CREATE TABLE movies_genres (
+    movie_id INT NOT NULL,
+    genre_id INT NOT NULL,
+    PRIMARY KEY (movie_id, genre_id),
+    CONSTRAINT fk_movies_genres_movie
+        FOREIGN KEY (movie_id) REFERENCES movies(movie_id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE,
+    CONSTRAINT fk_movies_genres_genre
+        FOREIGN KEY (genre_id) REFERENCES genres(genre_id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+);
+
+INSERT INTO movies_genres (movie_id, genre_id) VALUES
+(1, 3),
+(2, 1),
+(3, 3);
+
+CREATE TABLE movie_actors (
+    movie_id INT NOT NULL,
+    actor_id INT NOT NULL,
+    PRIMARY KEY (movie_id, actor_id),
+    CONSTRAINT fk_movie_actors_movie
+        FOREIGN KEY (movie_id) REFERENCES movies(movie_id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE,
+    CONSTRAINT fk_movie_actors_actor
+        FOREIGN KEY (actor_id) REFERENCES actors(actor_id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+);
+
+INSERT INTO movie_actors (movie_id, actor_id) VALUES
+(1, 1),
+(2, 2),
+(3, 3);

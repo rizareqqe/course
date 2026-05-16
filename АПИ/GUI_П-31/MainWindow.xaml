@@ -1,0 +1,62 @@
+<Window x:Class="GuiP31.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Панель управления фильмотекой"
+        Height="420"
+        Width="720"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource SurfaceBrush}">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" Background="White">
+            <MenuItem Header="Каталог">
+                <MenuItem Header="Фильмы" Click="OpenMovies_Click"/>
+                <MenuItem Header="Актеры" Click="OpenActors_Click" x:Name="ActorsMenuItem"/>
+                <MenuItem Header="Режиссеры" Click="OpenDirectors_Click" x:Name="DirectorsMenuItem"/>
+                <MenuItem Header="Жанры" Click="OpenGenres_Click" x:Name="GenresMenuItem"/>
+            </MenuItem>
+            <MenuItem Header="Сеанс">
+                <MenuItem Header="Выход" Click="Logout_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusTextBlock" />
+            </StatusBarItem>
+        </StatusBar>
+
+        <Grid Margin="24">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Background="{StaticResource PrimaryBrush}" CornerRadius="18" Padding="24" Margin="0,0,16,0">
+                <StackPanel>
+                    <TextBlock Text="Курсoвой проект"
+                               FontSize="14"
+                               Foreground="#D8F0EE" />
+                    <TextBlock Text="Фильмотека"
+                               FontSize="30"
+                               FontWeight="Bold"
+                               Foreground="White"
+                               Margin="0,8,0,8"/>
+                    <TextBlock x:Name="WelcomeTextBlock"
+                               TextWrapping="Wrap"
+                               Foreground="#EAF8F7"/>
+                </StackPanel>
+            </Border>
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Center">
+                <Button Height="46" Content="Открыть фильмы" Click="OpenMovies_Click"/>
+                <Button Height="46" Content="Открыть актеров" Click="OpenActors_Click" x:Name="ActorsButton"/>
+                <Button Height="46" Content="Открыть режиссеров" Click="OpenDirectors_Click" x:Name="DirectorsButton"/>
+                <Button Height="46" Content="Открыть жанры" Click="OpenGenres_Click" x:Name="GenresButton"/>
+                <TextBlock Margin="0,18,0,0"
+                           Text="Для редактора каталогов доступны только фильмы, закрепленные за ним в базе данных."
+                           TextWrapping="Wrap"
+                           Foreground="#44515A"/>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</Window>

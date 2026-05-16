@@ -1,0 +1,120 @@
+<Window x:Class="GuiP31.MovieWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Фильмы"
+        Height="720"
+        Width="1180"
+        WindowStartupLocation="CenterOwner"
+        Background="{StaticResource SurfaceBrush}">
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusTextBlock" />
+            </StatusBarItem>
+        </StatusBar>
+
+        <Grid Margin="16">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Каталог фильмов"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       Foreground="{StaticResource PrimaryBrush}" />
+
+            <Border Grid.Row="1" Background="White" CornerRadius="12" Padding="16" Margin="0,16,0,12">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Поиск по всем полям" />
+                    <TextBlock Grid.Column="1" Text="Режиссер" />
+                    <TextBlock Grid.Column="2" Text="Жанр" />
+                    <TextBlock Grid.Column="3" Text="Год от" />
+                    <TextBlock Grid.Column="4" Text="Год до" />
+
+                    <TextBox x:Name="SearchTextBox" Grid.Row="1" Margin="0,4,8,0" />
+                    <ComboBox x:Name="DirectorFilterComboBox" Grid.Row="1" Grid.Column="1" Margin="0,4,8,0" DisplayMemberPath="Name" SelectedValuePath="Id"/>
+                    <ComboBox x:Name="GenreFilterComboBox" Grid.Row="1" Grid.Column="2" Margin="0,4,8,0" DisplayMemberPath="Name" SelectedValuePath="Id"/>
+                    <TextBox x:Name="YearFromTextBox" Grid.Row="1" Grid.Column="3" Margin="0,4,8,0" />
+                    <TextBox x:Name="YearToTextBox" Grid.Row="1" Grid.Column="4" Margin="0,4,0,0" />
+                </Grid>
+            </Border>
+
+            <Grid Grid.Row="2" Margin="0,0,0,12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <ComboBox x:Name="PrimarySortComboBox" Margin="0,0,8,0">
+                    <ComboBoxItem Content="Сортировка 1: название" Tag="title" IsSelected="True"/>
+                    <ComboBoxItem Content="Сортировка 1: год" Tag="year"/>
+                    <ComboBoxItem Content="Сортировка 1: режиссер" Tag="director"/>
+                    <ComboBoxItem Content="Сортировка 1: куратор" Tag="curator"/>
+                </ComboBox>
+                <CheckBox x:Name="PrimaryDescendingCheckBox" Grid.Column="1" VerticalAlignment="Center" Content="По убыванию" />
+                <ComboBox x:Name="SecondarySortComboBox" Grid.Column="2" Margin="8,0,8,0">
+                    <ComboBoxItem Content="Сортировка 2: нет" Tag="" IsSelected="True"/>
+                    <ComboBoxItem Content="Сортировка 2: название" Tag="title"/>
+                    <ComboBoxItem Content="Сортировка 2: год" Tag="year"/>
+                    <ComboBoxItem Content="Сортировка 2: режиссер" Tag="director"/>
+                    <ComboBoxItem Content="Сортировка 2: куратор" Tag="curator"/>
+                </ComboBox>
+                <CheckBox x:Name="SecondaryDescendingCheckBox" Grid.Column="3" VerticalAlignment="Center" Content="По убыванию" />
+                <StackPanel Grid.Column="5" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="Применить" Click="ApplyFilters_Click"/>
+                    <Button Content="Сбросить" Click="ResetFilters_Click"/>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                    <Button Content="Добавить" Click="AddMovie_Click"/>
+                    <Button Content="Изменить" Click="EditMovie_Click"/>
+                    <Button Content="Удалить" Click="DeleteMovie_Click"/>
+                    <Button Content="Статистика" Click="ShowStatistics_Click"/>
+                    <Button Content="Обновить" Click="Refresh_Click"/>
+                </StackPanel>
+
+                <DataGrid x:Name="MovieGrid"
+                          Grid.Row="1"
+                          AutoGenerateColumns="False"
+                          IsReadOnly="True"
+                          SelectionMode="Single">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Название" Binding="{Binding Title}" Width="180"/>
+                        <DataGridTextColumn Header="Год" Binding="{Binding Year}" Width="80"/>
+                        <DataGridTextColumn Header="Описание" Binding="{Binding Description}" Width="260"/>
+                        <DataGridTextColumn Header="Режиссер" Binding="{Binding DirectorName}" Width="160"/>
+                        <DataGridTextColumn Header="Куратор" Binding="{Binding CuratorName}" Width="170"/>
+                        <DataGridTextColumn Header="Жанры" Binding="{Binding GenresDisplay}" Width="160"/>
+                        <DataGridTextColumn Header="Актеры" Binding="{Binding ActorsDisplay}" Width="180"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

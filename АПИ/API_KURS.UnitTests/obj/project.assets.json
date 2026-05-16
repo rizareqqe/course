@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "API_KURS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/API_KURS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/API_KURS.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "API_KURS/1.0.0": {
+      "type": "project",
+      "path": "../API_KURS/API_KURS.csproj",
+      "msbuildProject": "../API_KURS/API_KURS.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "API_KURS >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Рабочий стол\\НАВСЯКИЙ\\АПИ\\API_KURS.UnitTests\\API_KURS.UnitTests.csproj",
+      "projectName": "API_KURS.UnitTests",
+      "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\НАВСЯКИЙ\\АПИ\\API_KURS.UnitTests\\API_KURS.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\НАВСЯКИЙ\\АПИ\\API_KURS.UnitTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\User\\OneDrive\\Рабочий стол\\НАВСЯКИЙ\\АПИ\\API_KURS\\API_KURS.csproj": {
+              "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\НАВСЯКИЙ\\АПИ\\API_KURS\\API_KURS.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
